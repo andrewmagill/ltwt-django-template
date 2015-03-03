@@ -8,7 +8,7 @@ From the book, [*Lightweight Django*](http://www.amazon.com/Lightweight-Django-J
 
 ### Using the template ###
 ```bash
-$ django-admin.py startporject --template=https://github.com/andrewmagill/ltwt-django-template/zipball/master <project_name>
+$ django-admin.py startproject --template=https://github.com/andrewmagill/ltwt-django-template/zipball/master <project_name>
 ```
 
 Set DEBUG, SECRET_KEY, and ALLOWED_HOSTS environment variables
