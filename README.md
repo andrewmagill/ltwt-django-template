@@ -10,3 +10,9 @@ From the book, [*Lightweight Django*](http://www.amazon.com/Lightweight-Django-J
 ```bash
 $ django-admin.py startporject --template=https://github.com/andrewmagill/ltwt-django-template/zipball/master <project_name>
 ```
+
+Set DEBUG, SECRET_KEY, and ALLOWED_HOSTS environment variables
+```bash
+$ export DEBUG=off  # export will set env var only for current shell session
+$ export ALLOWED_HOSTS=localhost,yourdomain.com
+```
